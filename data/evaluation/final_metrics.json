@@ -1,0 +1,75 @@
+{
+  "intent": {
+    "n": 200,
+    "accuracy": 0.855,
+    "macro_f1": 0.8572,
+    "per_intent": {
+      "baggage_issue": {
+        "precision": 0.9230769230769231,
+        "recall": 0.96,
+        "f1-score": 0.9411764705882353,
+        "support": 25.0
+      },
+      "booking_change_or_cancellation": {
+        "precision": 0.8518518518518519,
+        "recall": 0.7666666666666667,
+        "f1-score": 0.8070175438596491,
+        "support": 30.0
+      },
+      "check_in_or_boarding": {
+        "precision": 0.88,
+        "recall": 0.9565217391304348,
+        "f1-score": 0.9166666666666666,
+        "support": 23.0
+      },
+      "flight_disruption_or_status": {
+        "precision": 0.9565217391304348,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9361702127659575,
+        "support": 24.0
+      },
+      "general_information": {
+        "precision": 0.7083333333333334,
+        "recall": 0.85,
+        "f1-score": 0.7727272727272727,
+        "support": 20.0
+      },
+      "loyalty_or_account": {
+        "precision": 0.9565217391304348,
+        "recall": 0.7857142857142857,
+        "f1-score": 0.8627450980392157,
+        "support": 28.0
+      },
+      "other_or_ambiguous": {
+        "precision": 0.6896551724137931,
+        "recall": 0.7692307692307693,
+        "f1-score": 0.7272727272727273,
+        "support": 26.0
+      },
+      "refund_or_payment": {
+        "precision": 0.9130434782608695,
+        "recall": 0.875,
+        "f1-score": 0.8936170212765957,
+        "support": 24.0
+      },
+      "accuracy": 0.855,
+      "macro avg": {
+        "precision": 0.8598755296497052,
+        "recall": 0.8599750159261028,
+        "f1-score": 0.8571741266495401,
+        "support": 200.0
+      },
+      "weighted avg": {
+        "precision": 0.863111768474737,
+        "recall": 0.855,
+        "f1-score": 0.8562933206979219,
+        "support": 200.0
+      }
+    }
+  },
+  "routing": {
+    "coverage": 0.155,
+    "auto_route_precision": 0.1935,
+    "escalation_recall": 0.8641
+  }
+}

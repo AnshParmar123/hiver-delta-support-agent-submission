@@ -1,0 +1,14 @@
+.venv/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+.env
+data/evaluation/golden_review_queue.csv
+data/evaluation/independent_review_50.csv

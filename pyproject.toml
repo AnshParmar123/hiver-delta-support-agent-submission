@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiver-support-agent"
+version = "0.1.0"
+description = "Auditable support-agent take-home for Delta Twitter support"
+requires-python = ">=3.10"
+dependencies = [
+  "click>=8.1,<9.0",
+  "pandas>=2.0,<3.0",
+  "scikit-learn>=1.3,<2.0",
+  "joblib>=1.3,<2.0",
+  "streamlit>=1.38,<2.0",
+]
+
+[project.scripts]
+hiver-support = "hiver_support.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

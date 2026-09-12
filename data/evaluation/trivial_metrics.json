@@ -1,0 +1,75 @@
+{
+  "intent": {
+    "n": 200,
+    "accuracy": 0.13,
+    "macro_f1": 0.0288,
+    "per_intent": {
+      "baggage_issue": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 25.0
+      },
+      "booking_change_or_cancellation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 30.0
+      },
+      "check_in_or_boarding": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 23.0
+      },
+      "flight_disruption_or_status": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 24.0
+      },
+      "general_information": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 20.0
+      },
+      "loyalty_or_account": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 28.0
+      },
+      "other_or_ambiguous": {
+        "precision": 0.13,
+        "recall": 1.0,
+        "f1-score": 0.23008849557522124,
+        "support": 26.0
+      },
+      "refund_or_payment": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 24.0
+      },
+      "accuracy": 0.13,
+      "macro avg": {
+        "precision": 0.01625,
+        "recall": 0.125,
+        "f1-score": 0.028761061946902654,
+        "support": 200.0
+      },
+      "weighted avg": {
+        "precision": 0.0169,
+        "recall": 0.13,
+        "f1-score": 0.02991150442477876,
+        "support": 200.0
+      }
+    }
+  },
+  "routing": {
+    "coverage": 0.0,
+    "auto_route_precision": null,
+    "escalation_recall": 1.0
+  }
+}
